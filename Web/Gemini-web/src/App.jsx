@@ -1,16 +1,19 @@
-import '../Styles/App.scss'
-import Navigation from '../Components/Navigation'
-import Intro from '../Components/Intro'
+import '../src/Styles/App.scss'
+import Navigation from './Components/Navigation'
+import Intro from './Components/Intro'
+import HowItWorks from './Components/HowItWorks'
 
 function App() {
 
   return (
     <body>
       <div className='Landing-page'>
-          <Navigation/>
-          <Intro/>
+        <Navigation/>
+        <Intro/>
       </div>
-      <main></main>
+      <main>
+        <HowItWorks/>
+      </main>
     </body>
   )
 }

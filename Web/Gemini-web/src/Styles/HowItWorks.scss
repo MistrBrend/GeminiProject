@@ -1,0 +1,120 @@
+@use 'abstracts/colors';
+
+.HIW{
+    background-color: colors.$White;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+
+    &__left{
+        background-color: colors.$lightGrey;
+        border-radius: 10px;
+        display: flex;
+
+        width: 49%;
+        padding: 2.5%;
+        margin-right: 2%;
+        &--content{
+
+            h1{
+                font-size: 2.5rem;
+                width: max-content;
+                border-bottom: 5px solid colors.$Color2;
+            }
+
+            p{
+                width: 90%;
+                padding: 1.5% 0;
+                font-size: 1.2rem;
+                span{
+                    font-weight: bold;
+                }
+            }
+
+            ul{
+                font-size: 1.05rem;
+                list-style: none;
+                font-weight: bold;
+                padding-bottom: 7%;
+                li {
+                    &::before {
+                        content: "\2022";
+                        color: colors.$darkGrey;
+                        display: inline-block;
+                        width: 1em;
+                    }                 
+                    color: colors.$Color1;
+                }
+            }
+
+            button{
+                font-weight: bold;
+                font-size: 1rem;
+                padding: 1% 4%;
+                border-radius: 5px;
+                border: 2px solid colors.$Grey;
+                background-color: colors.$Color4;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: colors.$Color4-less-light;
+                    border: 2px dashed colors.$Grey;
+                }
+            }
+        }
+    }
+    &__right{
+        display: flex;
+        flex-direction: column;
+        width: 36%;
+        &-up{
+            background: radial-gradient(100% 196.2% at 98.97% 0%, #80E0FF 0%, #FCFFA8 100%);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 65%;
+                padding: 5% 0;
+            }
+            height: 75%;
+            margin-bottom: 5%;
+        }
+        &-down{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            padding: 3%;
+            height: max-content;
+            background: linear-gradient(white, white)
+            padding-box, linear-gradient(to left, colors.$Color2-light, colors.$Color4-light) 
+            border-box;
+
+    
+            border-radius: 10px;
+            border: 4px solid transparent;
+
+            h4{
+                text-align: center;
+                margin-bottom: 2%;
+            }
+
+            button{
+                font-weight: bold;
+                width: 30%;
+                background-color: colors.$Color2-less-light;
+                padding: 1% 4%;
+                border-radius: 5px;
+                border: 2px solid colors.$Color2-less-light;
+                cursor: pointer;
+                
+                &:hover{
+                    background-color: colors.$Color2-light;
+                    border: 2px dashed colors.$Color2;
+                }
+            }
+        }
+    }
+}
