@@ -6,7 +6,7 @@ Web-design ->
 
 App-design ->
 ---------------------------------
-<p float="left" margin="3%">
+<p float="left" style="margin: 50px">
 <img src="https://user-images.githubusercontent.com/104073696/214930655-ea3c8ceb-361e-4fbc-9112-89bb2dd74eeb.png" width="180">
 <img src="https://user-images.githubusercontent.com/104073696/214928586-291263ac-b394-4c3f-8097-d895d3a5c3da.png" width="180">
 <img src="https://user-images.githubusercontent.com/104073696/214928597-8bca29b1-ab9a-4114-a993-9b3421f201ac.png" width="180">
