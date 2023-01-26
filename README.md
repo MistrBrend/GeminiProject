@@ -3,9 +3,9 @@
 Web-design ->
 ![GeminiWebdesign](https://user-images.githubusercontent.com/104073696/214928180-72ce85f0-cde9-47a4-bde8-5bde4b839d20.png)
 
----------------------------------
 
 App-design ->
+---------------------------------
 ![iPhone 14 Pro - 1](https://user-images.githubusercontent.com/104073696/214928572-e5113f4d-8b17-4f72-b437-48e6539e5856.png)
 ![iPhone 14 Pro - 2](https://user-images.githubusercontent.com/104073696/214928586-291263ac-b394-4c3f-8097-d895d3a5c3da.png)
 ![iPhone 14 Pro - 3](https://user-images.githubusercontent.com/104073696/214928597-8bca29b1-ab9a-4114-a993-9b3421f201ac.png)
