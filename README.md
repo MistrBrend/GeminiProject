@@ -6,6 +6,7 @@ Web-design ->
 
 App-design ->
 ---------------------------------
+<p float="left">
 <img src="https://user-images.githubusercontent.com/104073696/214930655-ea3c8ceb-361e-4fbc-9112-89bb2dd74eeb.png" width="200">
 <img src="https://user-images.githubusercontent.com/104073696/214928586-291263ac-b394-4c3f-8097-d895d3a5c3da.png" width="200">
 <img src="https://user-images.githubusercontent.com/104073696/214928597-8bca29b1-ab9a-4114-a993-9b3421f201ac.png" width="200">
@@ -16,3 +17,4 @@ App-design ->
 <img src="https://user-images.githubusercontent.com/104073696/214928645-bf74cf10-efed-4f59-84e1-6d0da2244746.png" width="200">
 <img src="https://user-images.githubusercontent.com/104073696/214928653-5b6eaad1-300d-4940-8689-7a2dbe7d04d8.png" width="200">
 <img src="https://user-images.githubusercontent.com/104073696/214928660-dfcd3a9b-2c22-4452-937c-9042bb308ece.png" width="200">
+</p>
