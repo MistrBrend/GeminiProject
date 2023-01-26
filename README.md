@@ -6,7 +6,8 @@ Web-design ->
 
 App-design ->
 ---------------------------------
-![iPhone 14 Pro - 1](https://user-images.githubusercontent.com/104073696/214928572-e5113f4d-8b17-4f72-b437-48e6539e5856.png)
+<img src="[https://your-image-url.type](https://user-images.githubusercontent.com/104073696/214928572-e5113f4d-8b17-4f72-b437-48e6539e5856.png)" width="100" height="100">
+
 ![iPhone 14 Pro - 2](https://user-images.githubusercontent.com/104073696/214928586-291263ac-b394-4c3f-8097-d895d3a5c3da.png)
 ![iPhone 14 Pro - 3](https://user-images.githubusercontent.com/104073696/214928597-8bca29b1-ab9a-4114-a993-9b3421f201ac.png)
 ![iPhone 14 Pro - 4](https://user-images.githubusercontent.com/104073696/214928603-f6e41f3d-6532-4f3e-bc97-5dd470567704.png)
