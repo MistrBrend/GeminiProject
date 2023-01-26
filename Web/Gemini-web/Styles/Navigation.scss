@@ -1,0 +1,48 @@
+@use 'abstracts/colors';
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+
+    background-color: #0001;
+    color: colors.$White;
+
+    
+    .header__logo{
+        width: 60%;
+
+        h1{
+            background: linear-gradient(90deg, #FDFF89 0%, #5ED8FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+
+            width: fit-content;
+            border: 3px solid colors.$White;
+            padding: 0.8%;
+            border-radius: 15px;
+        }
+    }
+    nav{
+        display: flex;
+        width: 30%;
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: colors.$White;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+    }
+}
