@@ -2,6 +2,8 @@ import '../src/Styles/App.scss'
 import Navigation from './Components/Navigation'
 import Intro from './Components/Intro'
 import HowItWorks from './Components/HowItWorks'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -13,7 +15,9 @@ function App() {
       </div>
       <main>
         <HowItWorks/>
+        <Contact/>
       </main>
+      <Footer/>
     </body>
   )
 }
