@@ -3,7 +3,7 @@ import '../Styles/Footer.scss'
 
 function Footer() {
   return (
-    <section className="footer">
+    <footer className="footer">
       <div className="footer__title">
         <h2>RGB Stoelendans</h2>
         <img src="src\assets\apple.svg" alt="appstore button" />
@@ -25,7 +25,7 @@ function Footer() {
           <li><a href="">Lorem</a></li>
         </ul>
       </div>
-    </section>
+    </footer>
   )
 }
 
