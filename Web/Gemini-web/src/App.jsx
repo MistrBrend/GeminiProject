@@ -9,8 +9,9 @@ function App() {
 
   return (
     <body>
+      
       <div className='Landing-page'>
-        <Navigation/>
+        <Navigation />
         <Intro/>
       </div>
       <main>

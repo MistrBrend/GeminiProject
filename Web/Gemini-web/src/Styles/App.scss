@@ -6,6 +6,13 @@
 }
 .Landing-page{
   background: url(../src/assets/landing-image.svg);
-  background-position: center;
-  background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+header {      
+  z-index: 2;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
