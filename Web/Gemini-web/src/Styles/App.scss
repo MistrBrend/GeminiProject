@@ -11,6 +11,8 @@ html{
   background: url(../src/assets/landing-image.svg);
     background-position: center;
     background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
 }
 
 header {      
