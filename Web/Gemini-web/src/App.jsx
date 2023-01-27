@@ -1,4 +1,4 @@
-import {Router, Routes, Route} from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import '../src/Styles/App.scss'
 import Navigation from './Components/Navigation'
@@ -10,33 +10,26 @@ import Footer from './Components/Footer'
 function App() {
 
   return (
-    <Router>
-      <Routes>
-        <body>
-          <div className='Landing-page'>
-            <Route path="/" element={<Navigation />} />
-            <Route path="/" element={<Intro />} />
-          </div>
-          <main>
-            <Route path="/" element={<HowItWorks />} />
-            <Route path="/" element={<Contact />} />
-          </main>
-          <Route path="/" element={<Footer />} />
-        </body>
-      </Routes>
-    </Router>
-
-    // <body>
-    //   <div className='Landing-page'>
-    //     <Navigation />
-    //     <Intro/>
-    //   </div>
-    //   <main>
-    //     <HowItWorks/>
-    //     <Contact/>
-    //   </main>
-    //   <Footer/>
-    // </body>
+      <Router>
+        <div className="Landing-page">
+        <Routes>
+            <Route path="/" element={<Navigation />}/>
+        </Routes>
+        <Routes>
+          <Route path="/" element={<Intro />}/>
+        </Routes>
+        </div>
+        <div id='HowItWorks'/>
+        <Routes>
+          <Route path="/" element={<HowItWorks />}/>
+        </Routes>
+        <Routes>
+          <Route path="/" element={<Contact />}/>
+        </Routes>
+        <Routes>
+          <Route path="/" element={<Footer />}/>
+        </Routes>
+      </Router>
   )
 }
 

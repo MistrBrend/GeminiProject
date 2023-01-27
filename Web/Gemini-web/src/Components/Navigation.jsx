@@ -6,9 +6,9 @@ function Navigation() {
   const [navColor, setnavColor] = useState("#0002");
   const [navTitle, setnavTitle] = useState("2rem");
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setnavColor("#523CD6") : setnavColor("#0002");
-    window.scrollY > 10 ? setnavPadding("0.7%") : setnavPadding("1% 0");
-    window.scrollY > 10 ? setnavTitle("1.8rem") : setnavTitle("2rem")
+    window.scrollY > 80 ? setnavColor("#523CD6") : setnavColor("#0002");
+    window.scrollY > 80 ? setnavPadding("0.7%") : setnavPadding("1% 0");
+    window.scrollY > 80 ? setnavTitle("1.8rem") : setnavTitle("2rem")
   }
 
   useEffect(() => {
@@ -32,9 +32,9 @@ function Navigation() {
         </div>
         <nav className="header__nav">
             <ul>
-                <li><a href="" className="links">Home</a></li>
-                <li><a href="" className="links">Hoe werkt het?</a></li>
-                <li><a href="" className="links">Contact</a></li>
+                <li><a href="#home" className="links">Home</a></li>
+                <li><a href="#HowItWorks" className="links">Hoe werkt het?</a></li>
+                <li><a href="#contact" className="links">Contact</a></li>
             </ul>
         </nav>
     </header>

@@ -3,7 +3,7 @@ import '../Styles/Intro.scss'
 
 function Intro() {
   return (
-    <section className='intro'>
+    <section className='intro' id="home">
       <div className="intro__image">
         <img src="src\assets\Intro-mobile-image.png" alt="" />
       </div>

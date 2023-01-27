@@ -2,9 +2,41 @@
 
 
 .GamemodesModal{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #0005;
+    z-index: 999;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    position: fixed;
+    background-color: #0009;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container{
+        background-color: colors.$White;
+        border-radius: 5px;
+        padding: 1%;
+
+        display: flex;
+        justify-content: flex-end;
+
+        button{
+            padding: 0.5%;
+            width: 2%;
+            position: fixed;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+            background-color: rgb(192, 2, 2);
+            &:hover{
+                background-color: rgb(255, 0, 0);
+            }
+        }
+    }
 }

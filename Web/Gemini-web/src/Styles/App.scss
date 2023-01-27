@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 .Landing-page{
   background: url(../src/assets/landing-image.svg);
     background-position: center;
