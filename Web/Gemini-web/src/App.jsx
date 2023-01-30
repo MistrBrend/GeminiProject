@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Intro />}/>
         </Routes>
         </div>
-        <div id='HowItWorks'/>
+        <div id='hoeWerktHet'/>
         <Routes>
           <Route path="/" element={<HowItWorks />}/>
         </Routes>

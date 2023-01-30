@@ -33,7 +33,7 @@ function Navigation() {
         <nav className="header__nav">
             <ul>
                 <li><a href="#home" className="links">Home</a></li>
-                <li><a href="#HowItWorks" className="links">Hoe werkt het?</a></li>
+                <li><a href="#hoeWerktHet" className="links">Hoe werkt het?</a></li>
                 <li><a href="#contact" className="links">Contact</a></li>
             </ul>
         </nav>
